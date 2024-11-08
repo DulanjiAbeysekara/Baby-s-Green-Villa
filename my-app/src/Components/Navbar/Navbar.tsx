@@ -1,19 +1,10 @@
-import React from 'react'
-import { useState } from "react";
-import {BarsIcon3} from "@heroicons/react";
-
-type Props={};
+import React from 'react';
+import {assets} from '../../assets/assets'
 
 function Navbar() {
-
-const Navbar=(props:Props)=>{
-
-  return (
-    <div>
-      Navbar
-    </div>
-  )
+  return <nav> 
+   <img src={assets.logo} width={150}/>
+  </nav>;
 }
 
-}
-export default Navbar
+export default Navbar;
